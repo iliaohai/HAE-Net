@@ -1,0 +1,13 @@
+python train.py --data_dir ./datasets/8kdehaze_mini --save_dir ./checkpoints --lr 0.000005 --batch_size 1 --epochs 30240 --nor
+
+python test.py --test_img ./datasets/8kdehaze_mini/cloud_L1/048-078_0.png --model_path ./checkpoints/best.pth --save_dir ./output  --nor
+
+# 批量处理
+python test_all.py --test_img ../yolo12/vis_input --model_path ./checkpoints/best.pth --save_dir ../yolo12/vis_input/dehazing --uni_size_w 768 --uni_size_h 768 --nor
+
+python test_all.py --test_img ../yolo12/datasets/Hazy-DIOR/images/test --model_path ./checkpoints/best.pth --save_dir ../yolo12/datasets/Hazy-DIOR-Dehazing/images/test --uni_size_w 768 --uni_size_h 768 --nor
+
+# 算参数量
+python test_parm.py --test_img ../yolo12/datasets/HAE-DIOR/images/test/11726.jpg --model_path ./checkpoints/best.pth --save_dir ./output --uni_size_w 512 --uni_size_h 512 --flops_h 512 --flops_w 512  --use_dummy --time_h 512 --time_w 512 --warmup 20 --iters 100--nor
+
+

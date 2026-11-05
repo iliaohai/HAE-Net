@@ -1,0 +1,78 @@
+{
+  "dataset": "HAE-DIOR",
+  "version": "v1",
+  "parts": [
+    {
+      "name": "HAE-DIOR-part01.tar.gz",
+      "bytes": 749191934,
+      "sha256": "ed0531cc37144d3e54b947f42217611288906c7b4601ec89a3de7af622c84fe5",
+      "files": 5420
+    },
+    {
+      "name": "HAE-DIOR-part02.tar.gz",
+      "bytes": 749169899,
+      "sha256": "1f00e13bdc5dd7597725bc6c2cba787b8014032b5bd17796f94af272f30f17f5",
+      "files": 5436
+    },
+    {
+      "name": "HAE-DIOR-part03.tar.gz",
+      "bytes": 726601802,
+      "sha256": "c0de5fd0b682eeb0b6af8dd78859edf0c08b7f0cdb391ec8a1a5416c87ec52d4",
+      "files": 2715
+    },
+    {
+      "name": "HAE-DIOR-part04.tar.gz",
+      "bytes": 722874424,
+      "sha256": "467eb8fd984a855d4d2118b622ba1a30fa24fc662497c65202d6502e64d30fb3",
+      "files": 2148
+    },
+    {
+      "name": "HAE-DIOR-part05.tar.gz",
+      "bytes": 723121886,
+      "sha256": "30f350b6e65b139fd45dc8dcfea56e353dc00e505103a2c239d4625c6ed03cd8",
+      "files": 2149
+    },
+    {
+      "name": "HAE-DIOR-part06.tar.gz",
+      "bytes": 722909310,
+      "sha256": "47dca991c99b84dc5c7a94b554fd23fb7b0d56597a89ff92417d1ff2e54861bd",
+      "files": 2211
+    },
+    {
+      "name": "HAE-DIOR-part07.tar.gz",
+      "bytes": 723214157,
+      "sha256": "7f5f19361fe496f145b086d56ffde1597782791b42b69f93db1b994e296900a0",
+      "files": 2184
+    },
+    {
+      "name": "HAE-DIOR-part08.tar.gz",
+      "bytes": 397674795,
+      "sha256": "1119914d7c02d87f7496cf1cafb0d5badda8a07987c0f20b2e1ba88c06492f9a",
+      "files": 24666
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 5862,
+      "labels": 5862,
+      "objects": 32592
+    },
+    "val": {
+      "images": 5863,
+      "labels": 5863,
+      "objects": 35437
+    },
+    "test": {
+      "images": 11738,
+      "labels": 11738,
+      "objects": 124443
+    }
+  },
+  "annotation_objects": 192472,
+  "files": 46929,
+  "weights": {
+    "name": "HAE-Net-weights.tar.gz",
+    "bytes": 482310258,
+    "sha256": "7e84a2d63596c624ff41186f24c4c8138ec5e00c88c4d30c39ebb681294b91a6"
+  }
+}
